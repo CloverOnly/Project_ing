@@ -11,9 +11,12 @@ public class Travel {
 	private String travelArea; // 나라
 	private int unitPrice; //가격
 	private String description; //설명
+	private String explain;	//설명
 	private String category; //분류
+	private String subheading;	//소제목
 	private String travelDate; //일정			
-	private String image;   // 이미지 바이트 배열
+	private String image;   // 이미지 
+	
 	//기본 생성자 작성
 	public Travel() {
 		super();
@@ -85,6 +88,22 @@ public class Travel {
 
 	public static long getSerialversionuid() {
 		return serialversionUID;
+	}
+
+	public String getExplain() {
+		return explain;
+	}
+
+	public void setExplain(String explain) {
+		this.explain = explain;
+	}
+
+	public String getSubheading() {
+		return subheading;
+	}
+
+	public void setSubheading(String subheading) {
+		this.subheading = subheading;
 	}
 	
 	

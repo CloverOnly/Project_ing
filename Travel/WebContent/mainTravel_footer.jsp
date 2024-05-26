@@ -11,10 +11,13 @@
 		background: #f0fff0;
 		color: grey;
 		font-size: 12px;
+		
+		
 	}
 	
 	.fot {
 		font-size: 15px;
+		
 	}
 	
 

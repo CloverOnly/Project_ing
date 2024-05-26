@@ -86,7 +86,7 @@
 
 <%-- 네비게이션 2 --%>
 <nav class="nav">
-  <a class="nav-link" href="#">해외여행</a>
+  <a class="nav-link" href="Travel.jsp">해외여행</a>
   <a class="nav-link" href="#">국내여행</a>
   <a class="nav-link" href="#">항공</a>
   <a class="nav-link" href="#">호텔</a>
