@@ -10,9 +10,9 @@ public class Green implements Serializable {
 	private int unitPrice;		//가격
 	private String author;		//심은 사람
 	private String description;	//설명
-	private String category;	//분류
+	private String category;	//원산지
 	private int unitsInStock;	//재고개수
-	private String releaseDate;	//재배일(월/년)
+	private String releaseDate;	//수확시기
 	private String filename;	//이미지 파일명
 	private int quantity;		//장바구니
 	
