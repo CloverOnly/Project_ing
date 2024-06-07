@@ -15,7 +15,12 @@
 	}
 	.pp{
 		color: green;
+	}
+	.cl a{
+		text-decoration: none;
+		color: #4b0082;
 	}	
+	
 </style>
 <title>Welcome</title>
 </head>
@@ -31,6 +36,7 @@
 			<h2><%=greeting %></h2>
 			<p class = "pp col-md-8 fs-4">GreenMarket</p>
 		</div>
+		<h5 class="cl text-center"><a href="green.jsp" class="cl">▶▶▶▶▶상품 구경하러 가기◀◀◀◀◀</a></h5>
 	</div>
 	
 	<div class="row align-items-md-stretch text-center">

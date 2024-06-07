@@ -53,7 +53,7 @@
 		list.add(goods);
 	}
 	
-	response.sendRedirect("green.jsp?id=" + id);
+	response.sendRedirect("info.jsp?id=" + id);
 %>
 </body>
 </html>

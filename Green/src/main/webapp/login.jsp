@@ -7,24 +7,29 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <meta charset="UTF-8">
+
+<style>
+.lo{
+	border: 1px solid green; 
+}
+
+</style>
 <title>로그인 페이지</title>
 </head>
 <body>
-<%@ include file = "header.jsp" %>
-
 <div class = "container py-4">
 	
-	<div class = "p-5 mb-4 bg-body-tertiary rounded-3">
-		<div class = "container-fluid py-5">
-			<h1 class = "display-5 fw-bold">로그인</h1>
-			<p class = "col-md-8 fs-4">Login</p>
-		</div>
-	</div>
+<!-- 	<div class = "p-5 mb-4 bg-body-tertiary rounded-3"> -->
+<!-- 		<div class = "container-fluid py-5"> -->
+<!-- 			<h1 class = "display-5 fw-bold">로그인</h1> -->
+<!-- 			<p class = "col-md-8 fs-4">Login</p> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
 	
-	<div class="row align-items-md-stretch text-center">
+	<div class="lo row align-items-md-stretch text-center">
 		<div class = "row justify-content-center align-items-center">
 			<div class = "h-100 p-5 col-md-6">
-				<h3>Please sign in</h3>
+				<h2 class= "text-center">로그인</h2>
 				<%
 					String error = request.getParameter("error");
 					if(error != null){
@@ -48,8 +53,6 @@
 		</div>
 	</div>
 </div>
-
-<%@ include file = "footer.jsp" %>
 </body>
 </html>
 

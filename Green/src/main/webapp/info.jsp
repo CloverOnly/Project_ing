@@ -47,9 +47,9 @@
                 <h3><b><%= green.getName() %></b></h3>
                 <p><%=green.getDescription() %></p>
                 <p><b>상품코드 : </b><span class="badge text-bg-danger"><%=green.getGreenId() %></span></p>
-                <p><b>저자</b> : <%=green.getAuthor() %></p>
-                <p><b>출판일</b> : <%=green.getReleaseDate() %></p>
-                <p><b>분류</b> : <%=green.getCategory() %></p>
+                <p><b>농주</b> : <%=green.getAuthor() %></p>
+                <p><b>수확일자</b> : <%=green.getReleaseDate() %></p>
+                <p><b>원산지</b> : <%=green.getCategory() %></p>
                 <p><b>재고 수</b> : <%=green.getUnitsInStock() %></p>
                 <h4><%=green.getUnitPrice() %>원</h4>
                 <p>

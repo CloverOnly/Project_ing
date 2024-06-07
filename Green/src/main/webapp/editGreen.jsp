@@ -56,7 +56,7 @@
 					<%
 						if(edit != null && edit.equals("update")){
 					%>
-					<a href="./updateBook.jsp?id=<%=rs.getString("g_id") %>" class="btn btn-success" role = "button">수정 &raquo;</a>
+					<a href="./updateGreen.jsp?id=<%=rs.getString("g_id") %>" class="btn btn-success" role = "button">수정 &raquo;</a>
 				</p>
 				<%
 						}else if (edit != null && edit.equals("delete")){

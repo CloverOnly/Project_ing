@@ -46,8 +46,10 @@
         
         <%-- 로고 및 타이틀 --%>
         <div class="d-flex align-items-center me-auto">
-            <img src="image/clover.jpg" width="50" height="50" style="vertical-align:middle;">
-            <span style="margin-left:10px;font-size:30px;"><a href="#" class="hd">금남의 GREEN CAFE</a></span>
+        	<a href="main.jsp" class="hd">
+            	<img src="image/clover.jpg" width="50" height="50" style="vertical-align:middle;">
+            	<span style="margin-left:10px;font-size:30px;">금남의 GREEN CAFE</span>
+            </a>
         </div>
         
 <%--         중앙 정렬을 위한 검색 폼 --%>
@@ -73,6 +75,12 @@
     </div>
 </nav>
 
+<ul class="nav nav-pills">
+		<li class="nav-item"><a href="./green.jsp" class="nav-link">상품 목록</a></li>
+		<li class="nav-item"><a href="./addGreen.jsp" class="nav-link">상품 등록</a></li>
+		<li class="nav-item"><a href="./editGreen.jsp?edit=update" class="nav-link">상품 수정</a></li>	
+		<li class="nav-item"><a href="./editGreen.jsp?edit=delete" class="nav-link">상품 삭제</a></li>		
+	</ul>
 <hr>
 
 </body>

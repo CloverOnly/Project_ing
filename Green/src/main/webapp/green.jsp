@@ -9,7 +9,7 @@
 
 <style>
 .ma {
-    	height: 500px;
+    	height: 350px;
     	background: url(image/green1.jpg) no-repeat center;
     	background-size: cover;
     	color: #000000;

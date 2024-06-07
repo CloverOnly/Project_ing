@@ -9,8 +9,9 @@
 	
 	.fo {
 		text-align : left;
-		color: grey;
-		font-size: 12px;	
+		color: dimgray;
+		font-size: 12px;
+		background: tan;	
 	}
 	.fot {
 		font-size: 15px;
@@ -19,8 +20,6 @@
 </style>
 </head>
 <body>
-<hr>
-
 <div class="fo">
 	<div class="fot">
 		<p><strong>(주)그린대표이사</strong> 오금남 | <strong>사업자등록번호</strong> 111-11-11111 | <strong>통산판매업신고번호</strong> 유구 제00000호 | <strong>호스팅 업체</strong> (주)그린컴퓨터</p>

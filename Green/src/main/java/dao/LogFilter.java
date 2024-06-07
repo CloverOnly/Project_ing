@@ -20,16 +20,16 @@ public class LogFilter implements Filter {
 	
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 		throws java.io.IOException, ServletException{
-			System.out.println("접속한 클라이언트 IP : " + request.getRemoteAddr());
+//			System.out.println("접속한 클라이언트 IP : " + request.getRemoteAddr());
 			long start = System.currentTimeMillis();
-			System.out.println("접근한 URL 경로 : " + getURLPath(request));
-			System.out.println("요청 처리 시작 시각 : " + getCurrentTime());
+//			System.out.println("접근한 URL 경로 : " + getURLPath(request));
+//			System.out.println("요청 처리 시작 시각 : " + getCurrentTime());
 			chain.doFilter(request, response);
 			
 			long end = System.currentTimeMillis();
-			System.out.println("요청 처리 종료 시각 : " + getCurrentTime());
-			System.out.println("요청 처리 소요 시간 : " + (end-start) + "ms ");
-			System.out.println("=========================================");			
+//			System.out.println("요청 처리 종료 시각 : " + getCurrentTime());
+//			System.out.println("요청 처리 소요 시간 : " + (end-start) + "ms ");
+//			System.out.println("=========================================");			
 	}
 	
 	public void destroy() {}

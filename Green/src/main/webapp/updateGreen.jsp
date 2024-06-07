@@ -83,7 +83,7 @@
 					<label class ="col-sm-2">상세정보</label>
 					<div class="col-sm-5">
 						<textarea name="description" id="description" rows="2" cols="50" class="form-control" 
-								placeholder="50자 이상 적어주세요"><%=rs.getString("b_description") %></textarea>
+								placeholder="50자 이상 적어주세요"><%=rs.getString("g_description") %></textarea>
 					</div>
 				</div>
 				

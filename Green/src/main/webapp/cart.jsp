@@ -81,7 +81,7 @@
 					<td></td>
 				</tr>
 			</table>
-			<a href = "./info.jsp" class = "btn btn-secondary">&laquo;쇼핑 계속하기</a>
+			<a href = "./green.jsp" class = "btn btn-secondary">&laquo;쇼핑 계속하기</a>
 		</div>
 	</div>
 </div>
