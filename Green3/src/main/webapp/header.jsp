@@ -58,15 +58,30 @@
    
         <%-- 이미지 창 --%>
         <div class="ms-3 image-container">
-
-            <a class="imc d-flex flex-column align-items-center" href="loginMember.jsp">
-                <img src="image/login.jpg" alt="로그인" width="40" height="40">
-                <span>로그인</span>
-            </a>
-             <a class="imc d-flex flex-column align-items-center" href="addMember.jsp">
-                <img src="image/login.jpg" alt="로그인" width="40" height="40">
-                <span>회원가입</span>
-            </a>
+			<c:choose>
+			    <c:when test="${empty sessionId}">
+			        <a class="imc d-flex flex-column align-items-center" href="loginMember.jsp">
+			            <img src="image/login.jpg" alt="로그인" width="40" height="40">
+			            <span>로그인</span>
+			        </a>
+			        <a class="imc d-flex flex-column align-items-center" href="addMember.jsp">
+			            <img src="image/login.jpg" alt="로그인" width="40" height="40">
+			            <span>회원가입</span>
+			        </a>
+			    </c:when>
+			    <c:otherwise>
+			        <p>[<%=sessionId %>]님</p>
+			        <a class="imc d-flex flex-column align-items-center" href="<c:url value="/logoutMember.jsp"/>">
+			            <span>로그아웃</span>
+			        </a>
+			        <a class="imc d-flex flex-column align-items-center" href="<c:url value="/updateMember.jsp"/>">
+			            <span>회원수정</span>
+			        </a>
+			        <a class="imc d-flex flex-column align-items-center" href="<c:url value="/deleteMember.jsp"/>">
+			            <span>회원탈퇴</span>
+			        </a>
+			    </c:otherwise>
+			</c:choose>
             <a class="imc d-flex flex-column align-items-center" href="#">
                 <img src="image/order.jpg" alt="주문내역" width="40" height="40">
                 <span>주문내역</span>
